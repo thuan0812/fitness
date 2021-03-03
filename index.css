@@ -12,7 +12,7 @@ body {
 }
 .page_header {
     position: relative; 
-    background:linear-gradient(rgba(34, 34, 34, 0.4), rgba(46, 46, 46, 0.3)),url(/img/background.png);
+    background:linear-gradient(rgba(34, 34, 34, 0.4), rgba(46, 46, 46, 0.3)),url(./img/background.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
