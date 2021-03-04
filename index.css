@@ -48,7 +48,7 @@ body {
     /* border-bottom: 2px solid #FFFFFF; */
     border-bottom: 1px solid #FFFFFF;
 }
-.active {
+.main_navigation_list .active {
     border-bottom: 1px solid #FF1D6A;
 }
 .social_container {
@@ -431,35 +431,53 @@ body {
 .owl-carousel{
     display: flex;
     width: 100% !important;
-    
+    margin-top: 50px; 
 }
 .owl-carousel .items{
     /* height: 250px; */
     position: relative;
+    top: 30px;
 }
-.owl-item{
+.owl-carousel .owl-item{
     opacity: 0.4;
     /* height: 400px !important; */
-    transform: scale(1);
     opacity: 0.4;
     border: 1px #FF6C2C;
 }
 .owl-carousel .items img{
-    /* height: 350px; */
-    transition: all linear 0.5s;
+    height: 300px;
+    transition: all linear 0.4s;
 }
 .owl-carousel .center img{
-    transform: scale(1.2);
-
+    transform: scale(1.2);    
     /* height: 450px; */
 }
 .owl-carousel .center{
-    /* height: 450px; */
+    height: 360px;
     overflow: hidden;
     opacity: 1;
-
+    box-shadow: 0 0 5px 2px #FF6C2C;
+    border-radius: 5px;
 }
-
+.owl-carousel .owl-prev{
+    background-color: #FF1D6A;
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.owl-carousel .owl-next{
+    background-color: #FF1D6A;
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    right: 25%;
+}
+.owl-carousel .owl-prev span, .owl-carousel .owl-next span {
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 30px;
+}
 .testmonials {
     width: 100%;
     display: flex;
@@ -537,7 +555,7 @@ body {
 .first_blog_tittle {
     padding: 30px 0px;
     color: rgb(255, 108, 44);
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 300;
 }
 .first_blog_overview {
@@ -581,7 +599,7 @@ body {
     width: 70%;
     background-color: rgb(19, 25, 26);
     margin-top: 10px;
-    padding-bottom: 50px;
+    
     
 }
 .main_blog_content {
@@ -800,3 +818,4 @@ textarea {
     background-color: #24272E;
     padding: 15px 0;
 }
+
